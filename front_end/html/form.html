@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <form action="">
+            <fieldset>
+                <legend>personal info</legend>
+                <label for="name">
+                    <span>name</span>
+                    <input type="text" id="name" name="name" autocomplete="name" required>
+                </label>
+                <label for="last_name">
+                    <span>last name</span>
+                    <input type="text" id="last_name" name="last_name" required>
+                </label>
+                <label for="country">
+                    <span>country</span>
+                    <select name="country" id="country">
+                        <option value="Colombia">Colombia</option>
+                        <option value="Argentina">Argentina</option>
+                        <option value="Brasil">Brasil</option>
+                    </select>
+                </label>
+                <label for="curso">
+                    <span>Curso</span>
+                    <input list="cursos" id="selected_course" name="selected_course" required>
+                    <datalist id="cursos">
+                        <option value="Python"></option>
+                        <option value="Java"></option>
+                        <option value="Ruby"></option>
+                        <option value="Javascript"></option>
+                        <option value="Go"></option>
+                    </datalist>
+                </label>
+                <label for="email">
+                    <span>email</span>
+                    <input type="email" id="email" name="email" autocomplete="email" required>
+                </label>
+                <label for="tel">
+                    <span>phone</span>
+                    <input type="tel" id="tel" name="phone" autocomplete="tel" required>
+                </label>
+                <label for="birth_date">
+                    <span>birth_date</span>
+                    <input type="date" id="birth_date" name="birth_date" required>
+                </label>
+                <label for="password">
+                    <span>password</span>
+                    <input type="password" id="password" name="password" required>
+                </label>
+                <input type="submit">
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
