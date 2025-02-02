@@ -1,2 +1,2 @@
 # cheat-sheets
-contains a variety of topics appoiments
+this repository contains notes about topics I study
